@@ -1,5 +1,5 @@
 # Classbook Devs
-Hi i'm Vava I am the classbook creator and developer. 
+Hi i'm Vava I am the classbook creator and french developer. 
 
 <em> ClassBook is a completely modified version of BCDI with more features like: </em>
 
