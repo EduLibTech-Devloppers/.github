@@ -1,10 +1,20 @@
+<!DOCTYPE HTML>
+<html>
 <head>
- <style>
-  * {
+  <meta charset="UTF-8">
+  <title>Downloader.io</title>
+  <style>
+        * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
 }
 .clearfix{
   clear:both;
@@ -167,44 +177,15 @@ body {
   font-size:0.85rem;
   line-height:17px;
 }
-.am-sect{
-  padding-top:100px;
+.footer-under{
+  background-color:#312833;
   padding-bottom:100px;
-  font-family:Helvetica, serif;
-}
-.am-container{
-  display:flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:space-around;
-}
-.am-content{
-  float:left;
-  padding:7px;
-  width:490px;
-  color:#444;
+  padding-top:100px;
+  min-height:500px;
+  color:#eee;
+  position:relative;
   font-weight:100;
-  margin-top:50px;
-}
-.am-pre{
-  padding:7px;
-  color:#b1b1b1;
-  font-size:15px;
-}
-.am-title{
-  padding:7px;
-  font-size:25px;
-  font-weight:400;
-}
-.am-desc{
-  padding:7px;
-  font-size:17px;
-  line-height:25px;
-}
-.am-post{
-  padding:7px;
-  line-height:25px;
-  font-size:13px;
+  font-family:Helvetica,serif;
 }
 .copyright{
   background-color:rgba(0, 0, 0, 0.15);
@@ -215,74 +196,213 @@ body {
   width:100%;
   font-size:0.75em;
 }
-#ihchk6{
-  color:black;
-  width:420px;
-  max-width:420px;
+.made-with{
+  float:left;
+  width:50%;
+  padding:5px 0;
 }
-@media (max-width: 480px){
-  #ihchk6{
-    width:auto;
+.foot-social-btns{
+  display:none;
+  float:right;
+  width:50%;
+  text-align:right;
+  padding:5px 0;
+}
+.footer-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:stretch;
+  justify-content:space-around;
+}
+.foot-list{
+  float:left;
+  width:200px;
+}
+.foot-list-title{
+  font-weight:400;
+  margin-bottom:10px;
+  padding:0.5em 0;
+}
+.foot-list-item{
+  color:rgba(238, 238, 238, 0.8);
+  font-size:0.8em;
+  padding:0.5em 0;
+}
+.foot-list-item:hover{
+  color:rgba(238, 238, 238, 1);
+}
+.foot-form-cont{
+  width:300px;
+  float:right;
+}
+.foot-form-title{
+  color:rgba(255,255,255,0.75);
+  font-weight:400;
+  margin-bottom:10px;
+  padding:0.5em 0;
+  text-align:right;
+  font-size:2em;
+}
+.foot-form-desc{
+  font-size:0.8em;
+  color:rgba(255,255,255,0.55);
+  line-height:20px;
+  text-align:right;
+  margin-bottom:15px;
+}
+.sub-input{
+  width:100%;
+  margin-bottom:15px;
+  padding:7px 10px;
+  border-radius:2px;
+  color:#fff;
+  background-color:#554c57;
+  border:none;
+}
+.sub-btn{
+  width:100%;
+  margin:15px 0;
+  background-color:#785580;
+  border:none;
+  color:#fff;
+  border-radius:2px;
+  padding:7px 10px;
+  font-size:1em;
+  cursor:pointer;
+}
+.sub-btn:hover{
+  background-color:#91699a;
+}
+.sub-btn:active{
+  background-color:#573f5c;
+}
+#irrx{
+  transition:opacity 2s linear, background-color 2s ease-in-out;
+  perspective:20px;
+  color:#005e98;
+  font-weight:500;
+  text-align:left;
+}
+#iizgf{
+  color:#c6c6c6;
+  line-height:40px;
+  font-weight:600;
+}
+#iugi{
+  background-repeat:repeat-y;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:contain;
+  background-image:repeating-radial-gradient(circle at top, #0052ff 0%, rgba(0, 101, 212, 255) 39%, rgba(0, 125, 155, 255) 53%, rgba(0, 143, 115, 255) 88%, #00916e 100%);
+  opacity:0.76;
+  border:0px none black;
+}
+#ia52y{
+  color:#000000;
+  border:0px solid #000000;
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:linear-gradient(#005c45 0%, #005c45 100%);
+}
+#icxmq6{
+  opacity:1;
+}
+#iivucw{
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:linear-gradient(#005c45 0%, #005c45 100%);
+  border-radius:4px 4px 4px 4px;
+}
+#iz0921{
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:linear-gradient(#005c45 0%, #005c45 100%);
+}
+#i5z1ot{
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:repeating-radial-gradient(circle at left, #0026bf 0%, #0a8400 100%);
+  opacity:0.8;
+}
+#izkp39{
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:linear-gradient(#002d8c 0%, #002d8c 100%);
+  border:0px solid black;
+  border-radius:6px 6px 6px 6px;
+}
+@media (max-width: 768px){
+  .foot-form-cont{
+    width:400px;
+  }
+  .foot-form-title{
+    width:autopx;
   }
 }
- </style>
+@media (max-width: 480px){
+  .foot-lists{
+    display:none;
+  }
+}
+
+  </style>
 </head>
-<body id="ixyn">
-  <header class="header-banner">
+<body>
+  <header id="iugi" class="header-banner">
     <div class="container-width">
-      <div class="logo-container" id="iazn">
-        <div class="logo" id="i3nz">ClassBook
+      <div class="logo-container">
+        <div id="irrx" class="logo">ClassBook
         </div>
       </div>
-      <nav class="menu" id="isln">
-        <div class="menu-item" id="i1fd">Articles
-          <br/>
+      <nav id="ixah" class="menu">
+        <div id="i2kg" class="menu-item">LATEST NEWS
         </div>
-        <div class="menu-item" id="ix7j">Download
+        <div id="iuss" class="menu-item">DOWNLOAD
         </div>
-        <div class="menu-item" id="i4sjj">About
+        <div id="i40o9" class="menu-item">BLOG
         </div>
       </nav>
       <div class="clearfix">
       </div>
-      <div class="lead-title" id="ig0hj">Webcome to ClassBook Website
-        <br/>
+      <div id="i7bml" class="lead-title">Bienvenue sur le site officiel de ClassBook
       </div>
-      <div class="sub-lead-title" id="i3n5j">Vous pouvez en savoir plus avec le bouton en dessous
-        <br/>
+      <div id="iizgf" class="sub-lead-title">Pour en savoir plus sur ce logiciel, cliquez juste en dessous
       </div>
-      <div class="lead-btn" id="ivka5">A Propos
-        <br/>
+      <div id="ia52y" class="lead-btn">A Propos
       </div>
     </div>
   </header>
-  <section class="flex-sect" id="igpz9">
-    <div class="container-width">
-      <div class="flex-title" id="icmdd">Les Dernières Actualités
-        <br/>
+  <section id="irdul" class="flex-sect">
+    <div id="ithd6" class="container-width">
+      <div id="id5my" class="flex-title">Nos dernières actualités
       </div>
-      <div class="flex-desc" id="iea7w">Toutes les nouveautés de la semaine sont ici !
-        <br/>
+      <div id="ivxai" class="flex-desc">Retrouvez ici les dernières infos sur ClassBook ici
       </div>
-      <div class="cards" id="ij1xl">
-        <div id="info-1" class="card">
+      <div class="cards">
+        <div class="card">
           <div class="card-header">
           </div>
           <div class="card-body">
-            <div class="card-title" id="iaooo">Nouveau Design 
-              <br/>
+            <div class="card-title">Title one
             </div>
-            <div class="card-sub-title" id="iwqh6">Publié par Vava 
-              <br/>
+            <div class="card-sub-title">Subtitle one
             </div>
-            <div class="card-desc" id="ifl5f">Cette semaine, ClassBook s'est refait une beauté et aussi une grande MAJ de sécurité.
-              <br/>Maintenant, vous pouvez utiliser le site juste au derniers recoins sans bugs
-              <br/>
+            <div class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             </div>
           </div>
         </div>
-        <div id="info-2" class="card">
-          <div id="Txt 2" class="card-header ch2">
+        <div class="card">
+          <div class="card-header ch2">
           </div>
           <div class="card-body">
             <div class="card-title">Title two
@@ -293,7 +413,7 @@ body {
             </div>
           </div>
         </div>
-        <div id="info-3" class="card">
+        <div class="card">
           <div class="card-header ch3">
           </div>
           <div class="card-body">
@@ -305,7 +425,7 @@ body {
             </div>
           </div>
         </div>
-        <div id="info-4" class="card">
+        <div class="card">
           <div class="card-header ch4">
           </div>
           <div class="card-body">
@@ -317,7 +437,7 @@ body {
             </div>
           </div>
         </div>
-        <div id="info-5" class="card">
+        <div class="card">
           <div class="card-header ch5">
           </div>
           <div class="card-body">
@@ -329,7 +449,7 @@ body {
             </div>
           </div>
         </div>
-        <div id="info-6" class="card">
+        <div class="card">
           <div class="card-header ch6">
           </div>
           <div class="card-body">
@@ -344,25 +464,60 @@ body {
       </div>
     </div>
   </section>
-  <section class="am-sect">
+  <footer id="i5z1ot" class="footer-under">
     <div class="container-width">
-      <div class="am-container">
-        <img id="ihchk6" src="">
-            <br/>
+      <div id="ipepuz" class="footer-container">
+        <div id="igkze5" class="foot-lists">
+          <div class="foot-list">
+            <div id="iraxwt" class="foot-list-title">Nous contacter
+            </div>
+            <div id="i63hhi" class="foot-list-item">Discord
+            </div>
+            <div id="ifqgeq" class="foot-list-item">Instagram
+            </div>
+            <div id="imn9el" class="foot-list-item">X ( Twitter )
+            </div>
+            <div id="i88iag" class="foot-list-item">E-mail
+            </div>
           </div>
-          <div class="am-title" id="ih0tl">Vous pouvez gérer vos livres, vos utilisateurs, ...
-            <br/>
+          <div class="foot-list">
+            <div id="i9egf5" class="foot-list-title">Services
+            </div>
+            <div id="iaubzu" class="foot-list-item">Blog
+            </div>
+            <div class="foot-list-item">Community
+            </div>
+            <div id="ioyjtx" class="foot-list-item">Forum
+            </div>
+            <div class="foot-list-item">Download
+            </div>
           </div>
-          <div class="am-desc" id="i43dv">Avec L'interface d'Administation de ClassBook ( WordBook )
-            <br/>
+          <div class="clearfix">
           </div>
-          <div class="am-post" id="iwvsw">Image de l'interface d'administration de ClassBook
-            <br/>
+        </div>
+        <div class="form-sub">
+          <div id="ig2qrh" class="foot-form-cont">
+            <div id="icxmq6" class="foot-form-title">Une question, un bug
+            </div>
+            <div id="ilhx9k" class="foot-form-desc">Vous pourrez nous dire votre problème ici et ,nous vous repondérons dès que possible 
+            </div>
+            <input type="text" name="name" placeholder="Name" id="iivucw" class="sub-input"/>
+            <input type="text" name="email" placeholder="Email" id="iz0921" class="sub-input"/>
+            <button type="button" id="izkp39" class="sub-btn">Submit</button>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <div class="copyright" id="i4y18q">
-  </div>
+    <div id="ix7ft6" class="copyright">
+      <div class="container-width">
+        <div id="izjvzx" class="made-with">ClassBook © 2024
+        </div>
+        <div class="foot-social-btns">facebook twitter linkedin mail
+        </div>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+</html>
