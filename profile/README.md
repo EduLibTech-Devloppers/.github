@@ -1,14 +1,16 @@
 # Classbook Devs
-Hi i'm Vava I am the classbook creator and french developer. 
+Hello, my name is Vava, I am the French classbook creator and developer.
 
-<em> ClassBook is a completely modified version of BCDI with more features like: </em>
+<em> ClassBook is a completely modified version of BCDI with more features such as: </em>
 
-- A graphical interface 
-- Regular Updates
+- A graphical interface
+- Regular updates
 - An easy-to-use administration interface
-- And More features
+- And more features
 
-If you want to support the project, you can give it a star or share it. 
+If you want to support the project, you can give it a star or share it.
+
+All code is available on different repos
 
 And for Devs, you can DM me on discord to join the team 
 <div min-width="65px" min-height="30px">
